@@ -1,0 +1,5 @@
+f = open('sample.txt','w+')
+f.write('\n\n Vishnu')
+print(f.tell())
+f.seek(0)
+print(f.read())
